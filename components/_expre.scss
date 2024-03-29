@@ -1,0 +1,25 @@
+@import "./variables";
+@import "./common";
+
+#expereance{
+    margin-bottom: 100px;
+    .expreHeading{
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 54px;
+        max-width: 445px;
+        margin-bottom: 30px;
+    }
+    .expreInfo{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #7B7B7B;
+        max-width: 550px;
+    }
+    .Exprebtn{
+        @include btn(#DAF6EB, #04AA6D, 14px 25px, 5px);
+        font-size: 16px;
+        font-weight: 600;
+    }
+}

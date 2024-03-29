@@ -1,0 +1,13 @@
+$paimary: #06C279;
+$black: #1B1B1B;
+$infoColor: #717171;
+
+@mixin btn($bg-color, $text-color, $padding, $border-radius) {
+    background-color: $bg-color;
+    color: $text-color;
+    padding: $padding;
+    border-radius: $border-radius;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth hover effect */
+  }

@@ -1,0 +1,49 @@
+@import "./variables";
+
+
+
+#benner{
+    margin-bottom: 100px;
+    .benner_box{
+
+        .benner_textBox{
+            margin-top: 116px;
+            .heading{
+                font-size: 60px;
+                font-weight: 700;
+                line-height: 71px;
+                color: $black;
+                margin-bottom: 37px;
+                .subhead{
+                    font-weight: 300;
+                }
+            }
+            .benner_info{
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 30px;
+                max-width: 510px;
+                color: #7B7B7B;
+                margin-bottom: 51px;
+            }
+
+            .benner_btn{
+                .btn_explore{
+                    @include btn(#04AA6D, white, 14px 25px, 5px);
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                .btn_watch{
+                    @include btn(white, #04AA6D, 14px 25px, 5px);
+                    border: 2px solid #04AA6D;
+                    margin-left: 20px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    .fa-play{
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
